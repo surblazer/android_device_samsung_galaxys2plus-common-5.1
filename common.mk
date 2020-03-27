@@ -2,6 +2,9 @@ COMMON_PATH := device/samsung/galaxys2plus-common
 
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
 
+# Overlay and packages usually set by vendor/cm
+DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay2
+
 TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 800
 
