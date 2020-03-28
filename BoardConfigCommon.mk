@@ -129,7 +129,6 @@ BOARD_SEPOLICY_UNION += \
     shell.te \
     system_server.te \
     tvserver.te \
-    uncrypt.te \
     untrusted_app.te \
     vclmk.te \
     vold.te \
